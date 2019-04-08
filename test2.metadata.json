@@ -1,0 +1,1 @@
+{"options":{"validator":{"$or":[{"name":{"$type":"string"}},{"age":{"$type":"number"}},{"phone":{"$type":"string"}},{"gender":{"$in":["m","f"]}},{"room":{"$in":["double","single","ensuite"]}},{"price":{"$type":"number"}}]}},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"test.test2"}],"uuid":"aa8fa8c628644130935de3eafc317f5e"}

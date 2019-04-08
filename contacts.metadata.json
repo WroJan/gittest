@@ -1,0 +1,1 @@
+{"options":{"validator":{"$or":[{"phone":{"$type":"string"}},{"name":{"$type":"string"}},{"room":{"$in":["Unknown","Incomplete"]}}]}},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"test.contacts"}],"uuid":"f559e831d2c541ec8c4c53fd8fe45523"}

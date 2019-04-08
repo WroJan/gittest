@@ -1,0 +1,1 @@
+{"options":{"validator":{"$and":[{"name":{"$type":"string"}},{"age":{"$type":"int"}},{"phone":{"$type":"string"}},{"gender":{"$in":["m","f"]}},{"room":{"$in":["double","single","ensuite"]}},{"price":{"$type":"double"}}]}},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"test.hel"}],"uuid":"bdbc3cf098004399bb72e54260dc6bb4"}
